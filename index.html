@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d5255a9864.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Capture1-_gQOUM2B1-transformed.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>DEVLOPER</p>
+                <h1>HI, I'm<span>DHRUV</span><br>MALANI From INDIA</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------about------------------>
+    <div id="about">
+       <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I'm Dhruv, a dedicated and ambitious student currently pursuing a diploma 
+                    in computer engineering. My academic journey has equipped me with a strong 
+                    foundation in various technical disciplines, fostering a keen interest in the 
+                    dynamic world of technology.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Devlopment</span><br>Web App Devlopment</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Working on it</li>
+                            <li><span>Web Devlopment</span><br>Working on it</li>
+                            <li><span>App Development</span><br>Working on it</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Std-10</span><br>Completed</li>
+                            <li><span>Diploma</span><br>On going</li>
+                            
+                        </ul>
+                    </div>
+            </div>
+        </div>
+       </div> 
+    </div>
+    <!-- -------services-------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>Web designing is the process of planning,
+                   conceptualizing, and implementing the plan 
+                   for designing a website in a way that is 
+                   functional and offers a good user experience.</p>
+                <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designing</h2>
+                    <p>UX design refers to the term “user experience design”, while UI stands for “user interface design”.</p>
+                    <a href="https://en.wikipedia.org/wiki/User_experience_design">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python programming</h2>
+                        <p>Python is a high-level, general-purpose programming language. 
+                            Its design philosophy emphasizes code readability with the use of significant 
+                            indentation.</p>
+                        <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Learn more</a>
+                        </div>
+            
+        </div>
+        
+    </div>
+</div>
+<!------portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media Apps</h3>
+                    <p>THe app conect you to the people around the world.
+                        Download it from play store.
+
+                    </p>
+                    <a href="https://www.google.com/search?q=social+media+apps&oq=social+media+apps&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARAuGEDSAQgxOTg2ajBqMagCALACAA&sourceid=chrome&ie=UTF-8"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music Apps</h3>
+                    <p>THe app conect you to the people around the world.
+                        Download it from play store.
+
+                    </p>
+                    <a href="https://www.google.com/search?q=music+apps&sca_esv=588256922&sxsrf=AM9HkKkF2Hmf0MncDftD6xcN2zHGcg_ngg%3A1701838340003&ei=A_5vZbPuPKDhseMPuoeOuAs&ved=0ahUKEwjz--HtgfqCAxWgcGwGHbqDA7cQ4dUDCBA&uact=5&oq=music+apps&gs_lp=Egxnd3Mtd2l6LXNlcnAiCm11c2ljIGFwcHMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyChAAGEcY1gQYsAMyDRAAGIAEGIoFGEMYsAMyDRAAGIAEGIoFGEMYsANIgwVQ4gNY4gNwAXgBkAEAmAEAoAEAqgEAuAEDyAEA-AEB4gMEGAAgQYgGAZAGCg&sclient=gws-wiz-serp">
+                        <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping Apps</h3>
+                    <p>THe app conect you to the people around the world.
+                        Download it from play store.
+
+                    </p>
+                    <a href="https://www.google.com/search?q=online+shopping+apps+india&sca_esv=588256922&sxsrf=AM9HkKlOQfvDFpWee5adpdMMJJ7E_2k2VA%3A1701838376648&ei=KP5vZd-CJ4yZseMPlq2IgAE&oq=online+shopping+apps&gs_lp=Egxnd3Mtd2l6LXNlcnAiFG9ubGluZSBzaG9wcGluZyBhcHBzKgIIADIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzINEAAYgAQYigUYQxiwAzINEAAYgAQYigUYQxiwA0iiClAAWABwAXgBkAEAmAEAoAEAqgEAuAEDyAEA4gMEGAAgQYgGAZAGCg&sclient=gws-wiz-serp">
+                        <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+ 
+            </div>
+        </div>
+        <a href="https://www.google.com/search?q=different+apps&sca_esv=588269219&sxsrf=AM9HkKnzJEoYxOU3M0fbpYkKIV-kYY0RNw%3A1701838438206&ei=Zv5vZbGRDJqVseMPnZChgAI&ved=0ahUKEwix3MucgvqCAxWaSmwGHR1ICCAQ4dUDCBA&uact=5&oq=different+apps&gs_lp=Egxnd3Mtd2l6LXNlcnAiDmRpZmZlcmVudCBhcHBzMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHSPc1UKMmWKMmcAF4A5ABAJgBAKABAKoBALgBA8gBAPgBAcICChAAGEcY1gQYsAPiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp" 
+        class="btn">See more</a>
+    </div>
+</div>
+<!------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/dhruv.malani.20/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/dhruvmalani_20/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://twitter.com/dhruvmalani_20"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/@dhruvmalani4588"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>copyright © 2023 Dhruv INDIA. All Rights Reserved.</p>
+</div>
+</div>
+
+
+
+<script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGi8IVzr66tOX45_Y1l7EgXs4lI-rMCqsStE4qofEgQ-0usxJ7WgfG0USxek53T4M/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
